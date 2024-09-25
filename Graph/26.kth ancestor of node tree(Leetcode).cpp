@@ -13,7 +13,7 @@ public:
             }
         }
     }
-    
+
     int getKthAncestor(int node, int k) {
         while(k>0){
             int i=log2(k);
